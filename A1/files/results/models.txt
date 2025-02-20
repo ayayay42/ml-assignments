@@ -1,0 +1,29 @@
+Best Model:
+ min_impurity_decrease       0.008
+NodeCount                      19
+TrainAcc                 0.939759
+TestAcc                  0.786822
+Name: 8, dtype: object
+
+Worst Model:
+ min_impurity_decrease         0.1
+NodeCount                       1
+TrainAcc                 0.777108
+TestAcc                  0.686047
+Name: 100, dtype: object
+
+Average Model:
+ min_impurity_decrease        0.02
+NodeCount                       5
+TrainAcc                 0.871486
+TestAcc                   0.72093
+
+
+
+best:
+
+1.
+Best Parameters: {'min_impurity_decrease': 0.008, 'min_samples_split': 2.0, 'max_depth': nan, 'min_samples_leaf': 1.0, 'MedianTestAcc': 0.7829457364341085}
+
+2.
+Best Parameters: {'min_impurity_decrease': 0.008, 'min_samples_split': 2.0, 'max_depth': nan, 'min_samples_leaf': 1.0, 'MedianTestAcc': 0.7829457364341085}
