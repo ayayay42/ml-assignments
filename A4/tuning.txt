@@ -1,0 +1,33 @@
+baseline:
+
+ Total params: 417,071 (1.59 MB)
+
+ Trainable params: 139,023 (543.06 KB)
+
+ Non-trainable params: 0 (0.00 B)
+
+ Optimizer params: 278,048 (1.06 MB)
+ 
+ Test accuracy: 61.88%
+ 
+ tuning:
+ 
+ parameters:
+ 
+ conv_blocks_grid = [2, 3, 4]
+kernel_size_grid = [3, 4, 5]
+pool_size_grid = [(2, 2), (3, 3), (4,4)]
+initializer_grid = [HeNormal(), GlorotUniform(), RandomNormal()]
+dropout_rate_grid = [0.0, 0.25, 0.5, 0.75]
+
+results:
+ 
+4826.5s	37	New Best Accuracy: 62.82% with parameters:
+4826.5s	38	Conv Blocks: 2, Kernel Size: 3, Pool Size: (2, 2), Initializer: <keras.src.initializers.random_initializers.RandomNormal object at 0x79f99f98fb80>, Dropout: 0.5
+
+New Best Accuracy: 62.81% with parameters:
+Conv Blocks: 2, Kernel Size: 3, Pool Size: (2, 2), Initializer: <keras.src.initializers.random_initializers.RandomNormal object at 0x7bad20947820>, Dropout: 0.25
+
+New Best Accuracy: 62.81% with parameters:
+Conv Blocks: 2, Kernel Size: 3, Pool Size: (2, 2), Initializer: <keras.src.initializers.random_initializers.RandomNormal object at 0x7bad20947820>, Dropout: 0.25
+
