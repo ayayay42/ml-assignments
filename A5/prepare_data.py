@@ -9,12 +9,8 @@ x_train = pd.read_csv('./A5_2025_train.csv')
 x_test = pd.read_csv('./A5_2025_test.csv')
 
 
+#see if there are some columns with the same prefix
 cat_cols = x_train.columns[14908:]
-
-x_train[cat_cols].to_csv("A5_train_category.csv", index=False)
-x_test[cat_cols].to_csv("A5_test_category.csv", index=False)
-
-
 
 #there is 5 unique suffixe per columns each with the same prefix
 

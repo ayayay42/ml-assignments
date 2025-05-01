@@ -25,7 +25,7 @@ param_grid = {
     'gamma': [0, 0.1, 0.2, 0.3, 0.5],
     'max_depth': [3, 4, 5, 6],
     'n_estimators': [300, 400, 500],
-    'subsample': [0.1, 0.5, 0.7, 1.0]
+    'subsample': [0.8, 0.9, 1.0]
 }
 
 total_combinations = len(ParameterGrid(param_grid))
