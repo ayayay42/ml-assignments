@@ -127,8 +127,6 @@ print(f"{w_new[0]:.3f}, {w_new[1]:.3f}, {b_new:.3f}")
 
 print("########## question 9 ##########")
 
-import numpy as np
-
 # Initial parameters
 W = np.array([[0.4, 0.2], [-0.3, 0.1]])
 b_h = np.array([0.9, -1.85])
@@ -146,3 +144,5 @@ b_new = b_h - eta * grad_b
 
 # Print results in required format
 print(f"{W_new[0,0]:.3f}, {W_new[0,1]:.3f}, {W_new[1,0]:.3f}, {W_new[1,1]:.3f}, {b_new[0]:.3f}, {b_new[1]:.3f}")
+
+print("########## question 10 ##########")
